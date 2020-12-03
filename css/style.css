@@ -1,0 +1,473 @@
+/* CSS Document */
+@font-face{
+	src: url(../font/SVN-Blue.ttf);
+	font-family: SVN-Blue;
+}
+/*reset css*/
+@charset "utf-8";
+/* CSS Document */
+*{
+	
+	margin: 0;
+	padding: 0;
+	
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+body{
+	font-family: SVN-Blue;
+}
+
+/*.contener
+{
+	width: 100%;
+	height: 4320px;
+	background:#246D0E;
+	margin: 0 auto;
+	
+}*/
+header{
+	width: 100%;
+	background-color: ;
+}
+.container{
+}
+
+.ovuong1
+{
+	max-width: 100%;
+	height: 900px;
+	background-image: url("../images/featuredgame-bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	margin: 0 auto;
+	animation: 1s bounceInDown;
+	display: flex;
+	
+}
+.ovuong1 img{
+	position: absolute;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	padding: 5px 50px;
+	display: inline-block;
+	left: 0px;
+	
+}
+.menu
+{
+	width: 100%;
+	height: 120px;
+	/*float: left;*/
+	padding-top: 0px;
+	box-sizing: border-box;
+	position: fixed;
+	display: flex;
+	justify-content: flex-end;
+	background-color: #113353;
+	z-index: 10000;
+		
+
+}
+.menu a{
+	font-size: 17px;
+}
+.menu ul
+{
+	list-style: none;
+	text-align: center;
+	margin-top: 50px;
+	width: 100%;
+	
+	
+}
+.menu ul li
+{
+	display: inline-block;
+	/*margin: -5px;*/
+	width: 150px;
+	height: 40px;
+	/*background: #39C0B1;*/
+	line-height: 40px;
+	position: relative;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	/*background: #D226EB;*/
+	transition: all 0.5s;
+}
+.menu ul li a:hover
+{
+	
+background:#920507;
+	/*color:#8E8E8E;*/
+	border-radius: 50px;
+	font-size: 2em;
+
+}
+.nav-mb a:hover
+{
+	background:#920507;
+	/*color:#8E8E8E;*/
+	border-radius: 20px;
+	font-size: 3em;
+
+}
+.nav-mb a{
+	font-size: 2em;
+	color: aliceblue;
+	border: px solid #FFFFFF;
+	padding: 5px;
+	text-decoration: none;
+	display: none;
+	text-align: left;
+
+	
+}
+.menu .submenu
+{
+	position: absolute;
+	display: none;
+	left: 0;
+	top:22px;
+}
+.menu ul li:hover .submenu
+{
+	display: block;
+	
+	
+}
+@media
+	screen and (max-width:800px){
+	.nav-mb a {
+		display: block;
+	}
+	.menu ul{
+		display: none;
+	}
+		.logo {
+		display: none;
+	}
+}
+
+
+
+.content{
+	background-color: ;
+	width: 700px;
+	height: ;
+	text-align: left;
+	padding: 300px 100px;
+}
+.content h1{
+	font-size: 80px;
+}
+
+.content h4{
+	font-size: 25px;
+color: #E90003
+}
+.content p{
+	font-size: 25px;
+color: #E90003
+}
+.content a{
+	font-size: 2em;
+	color: aliceblue;
+	border: 1px solid #FFFFFF;
+	padding: 5px 10px ;
+	text-decoration: none;
+	line-height: 40px;
+	position: relative;
+	transition: all 0.5s;
+}
+
+.content a:hover
+{
+	background:#920507;
+	/*color:#8E8E8E;*/
+	border-radius: 50px;
+	font-size: 2.5em;
+
+}
+
+
+/*animation*/
+
+.phone{
+	width: 350px;
+	right: 250px;
+	top: 250px;
+	animation: phone 1.3s infinite linear alternate;
+}
+.man{
+	width: 350px;
+	right: 100px;
+	top: 450px;
+	animation: man 1.3s infinite linear alternate;
+}
+.tien{
+	width: 100px;
+	right: 650px;
+	top: 400px;
+		animation: tien 1.3s infinite linear alternate;
+}
+.tien2{
+	width: 100px;
+	right: 150px;
+	top: 300px;
+		animation: tien 1.3s infinite linear alternate;
+}
+.bg{
+	width: 90px;
+	right: 100px;
+	top: 550px;
+			
+}
+.bg2{
+	width: 90px;
+	right: 450px;
+	top: 630px;
+		
+}
+.award{
+	width: 35px;
+	right: 130px;
+	top: 520px;
+		animation: man 1.3s infinite linear alternate;
+}
+.ripper{
+	width: 100px;
+	right: 100px;
+	top: 400px;
+	animation: tien 1.3s infinite linear alternate;
+}
+.gift{
+	width: 35px;
+	right: 480px;
+	top: 600px;
+		animation: man 1.3s infinite linear alternate;
+}
+@keyframes phone {
+	form {
+	transform: rotate(0deg)
+	}
+	to {
+	transform: rotate(8deg)
+	}
+}
+@keyframes man {
+	form {
+	transform: translate(0px)
+	}
+	to {
+	transform: translateY( 20px)
+	}
+}
+
+@keyframes tien {
+	form {
+	transform: translate(0px)
+	}
+	to {
+	transform: translate( 40px)
+	}
+}
+
+
+/*main*/
+
+.main{
+	width: 100%;
+	height: auto;
+	background-color: antiquewhite;
+	background-image: url("../images/featuredgame-bg.jpg");
+	
+	
+}
+.main h1{
+	
+}
+.dichvu{
+	width: 100%;
+	height: 400px;
+	background-color: aqua;
+	background-image: url("../images/newsletter.jpg");
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.dichvu img{
+	animation: phone 1s infinite linear alternate;
+}
+
+.cacdichvu{
+	width: 300px;
+	height: 300px;
+	border: 3px solid #11397F;
+	border-radius: 30px;
+	text-align: center;
+	float: left;
+	
+}
+
+.cacdichvu img{
+	width: 150px;
+	height: 150px;
+	margin: 50px 0px 10px 0px;
+
+
+}
+.main h1{
+	font-size: 65px
+}
+.main p{
+	font-size: 20px
+}
+
+.cacdichvu :hover {
+	transform: scale(1.2);
+	 transition: all ease-in-out 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+.gameall{
+	width: 100%;
+	height: 1000px;
+	
+	align-items: center;
+}
+.tonghopgame{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.game{
+	width: 350px;
+	height: 320px;
+	background-color: ;
+	border-radius: 30px ;
+	border: 2px solid #069DE7;
+	text-align: center;
+	float: left;
+	
+}
+.game img{
+	animation: fadeInFromNone 1.3s infinite linear alternate;
+}
+.game a{
+	font-size: 1.5em;
+	color: aliceblue;
+	border: 1px solid #FFFFFF;
+	padding: 5px 10px ;
+	text-decoration: none;
+	position: relative;
+	transition: all 0.5s;
+	bottom: 10px
+	
+}
+
+.game a:hover
+{
+	background:#920507;
+	/*color:#8E8E8E;*/
+	border-radius: 50px;
+	font-size: 2.2em;
+
+}
+@keyframes game1 {
+	form {
+		transform: opacity(0)
+	}
+	to {
+transform: opacity(1)
+	}
+}
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0.25;
+    }
+
+    1% {
+        display: block;
+        opacity: 0.25;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+
+
+
+/*aboutus*/
+
+
+.thongtin{
+	width: 100%;
+	height: 600px;
+	text-align: right;
+background-image: url("../images/featuredgame-bg.jpg");
+	padding: 50px 120px 0px 0px;
+	
+}
+.thongtin img{
+	position: absolute;
+	left: 50px;
+}
+.thongtin h1{
+	font-size: 60px;
+	padding: 0px 0px 0px 0px;
+
+}
+
+.thongtin p{
+	font-size: 20px;
+color: #FFFFFF;
+	padding: 50px 0px 0px 0px;
+	
+}
+.thongtin p{
+	font-size: 20px;
+color: #FFFFFF;
+	padding: 40px 0px 0px 0px;
+}
+.thongtin a{
+	font-size: 1.5em;
+	color: aliceblue;
+	border: 1px solid #FFFFFF;
+	padding: 5px 10px ;
+	text-decoration: none;
+	line-height: 40px;
+	position: relative;
+	transition: all 0.5s;
+}
+
+.thongtin a:hover
+{
+	background:#920507;
+	/*color:#8E8E8E;*/
+	border-radius: 50px;
+	font-size: 2.2em;
+
+}
